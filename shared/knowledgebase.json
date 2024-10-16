@@ -1,0 +1,176 @@
+{
+  "recipes": {
+    "crafting_table": {
+      "type": "crafting",
+      "ingredients": {
+        "oak_planks": 4
+      },
+      "result": {
+        "crafting_table": 1
+      }
+    },
+    "furnace": {
+      "type": "crafting",
+      "ingredients": {
+        "cobblestone": 8
+      },
+      "result": {
+        "furnace": 1
+      }
+    },
+    "stone_pickaxe": {
+      "type": "crafting",
+      "ingredients": {
+        "cobblestone": 3,
+        "stick": 2
+      },
+      "result": {
+        "stone_pickaxe": 1
+      }
+    },
+    "stone_shovel": {
+      "type": "crafting",
+      "ingredients": {
+        "cobblestone": 1,
+        "stick": 2
+      },
+      "result": {
+        "stone_shovel": 1
+      }
+    },
+    "iron_pickaxe": {
+      "type": "crafting",
+      "ingredients": {
+        "iron_ingot": 3,
+        "stick": 2
+      },
+      "result": {
+        "iron_pickaxe": 1
+      }
+    },
+    "diamond_pickaxe": {
+      "type": "crafting",
+      "ingredients": {
+        "diamond": 3,
+        "stick": 2
+      },
+      "result": {
+        "diamond_pickaxe": 1
+      }
+    },
+    "torch": {
+      "type": "crafting",
+      "ingredients": {
+        "coal": 1,
+        "stick": 1
+      },
+      "result": {
+        "torch": 4
+      }
+    },
+    "chest": {
+      "type": "crafting",
+      "ingredients": {
+        "oak_planks": 8
+      },
+      "result": {
+        "chest": 1
+      }
+    },
+    "wooden_door": {
+      "type": "crafting",
+      "ingredients": {
+        "oak_planks": 6
+      },
+      "result": {
+        "wooden_door": 3
+      }
+    }
+  },
+  "structures": [
+    {
+      "name": "simple_house",
+      "origin": { "x": 0, "y": 64, "z": 0 },
+      "blocks": [
+        { "x": 0, "y": 0, "z": 0, "block": "oak_planks" },
+        { "x": 1, "y": 0, "z": 0, "block": "oak_planks" },
+        { "x": 2, "y": 0, "z": 0, "block": "oak_planks" },
+        { "x": 0, "y": 1, "z": 0, "block": "oak_planks" },
+        { "x": 2, "y": 1, "z": 0, "block": "oak_planks" },
+        { "x": 0, "y": 2, "z": 0, "block": "oak_planks" },
+        { "x": 2, "y": 2, "z": 0, "block": "oak_planks" },
+        { "x": 1, "y": 2, "z": 0, "block": "crafting_table" },
+        { "x": 0, "y": 3, "z": 0, "block": "oak_planks" },
+        { "x": 1, "y": 3, "z": 0, "block": "furnace" },
+        { "x": 2, "y": 3, "z": 0, "block": "oak_planks" }
+      ]
+    },
+    {
+      "name": "storage_room",
+      "origin": { "x": 20, "y": 64, "z": 20 },
+      "blocks": [
+        { "x": 0, "y": 0, "z": 0, "block": "oak_planks" },
+        { "x": 1, "y": 0, "z": 0, "block": "oak_planks" },
+        { "x": 0, "y": 1, "z": 0, "block": "oak_planks" },
+        { "x": 1, "y": 1, "z": 0, "block": "oak_planks" },
+        { "x": 0, "y": 2, "z": 0, "block": "oak_planks" },
+        { "x": 1, "y": 2, "z": 0, "block": "oak_planks" },
+        { "x": 0, "y": 3, "z": 0, "block": "oak_planks" },
+        { "x": 1, "y": 3, "z": 0, "block": "chest" }
+      ]
+    },
+    {
+      "name": "small_farm",
+      "origin": { "x": -15, "y": 64, "z": -15 },
+      "blocks": [
+        { "x": 0, "y": 0, "z": 0, "block": "farmland" },
+        { "x": 1, "y": 0, "z": 0, "block": "farmland" },
+        { "x": 0, "y": 0, "z": 1, "block": "water" },
+        { "x": 1, "y": 0, "z": 1, "block": "water" },
+        { "x": 0, "y": 1, "z": 0, "block": "wheat" },
+        { "x": 1, "y": 1, "z": 0, "block": "wheat" }
+      ]
+    },
+    {
+      "name": "stone_watchtower",
+      "origin": { "x": 30, "y": 64, "z": 30 },
+      "blocks": [
+        { "x": 0, "y": 0, "z": 0, "block": "stone_bricks" },
+        { "x": 1, "y": 0, "z": 0, "block": "stone_bricks" },
+        { "x": 2, "y": 0, "z": 0, "block": "stone_bricks" },
+        { "x": 0, "y": 1, "z": 0, "block": "stone_bricks" },
+        { "x": 1, "y": 1, "z": 0, "block": "stone_bricks" },
+        { "x": 2, "y": 1, "z": 0, "block": "stone_bricks" },
+        { "x": 1, "y": 2, "z": 0, "block": "oak_log" },
+        { "x": 1, "y": 3, "z": 0, "block": "oak_planks" },
+        { "x": 1, "y": 4, "z": 0, "block": "torch" }
+      ]
+    }
+  ],
+  "sharedResources": {
+    "diamond_ore": {
+      "discoveredAt": { "x": 100, "y": 64, "z": 200 },
+      "quantity": 5
+    },
+    "iron_ore": {
+      "discoveredAt": { "x": 50, "y": 63, "z": 75 },
+      "quantity": 20
+    },
+    "coal_ore": {
+      "discoveredAt": { "x": -30, "y": 64, "z": -45 },
+      "quantity": 15
+    },
+    "cobblestone": {
+      "discoveredAt": { "x": 25, "y": 65, "z": 35 },
+      "quantity": 100
+    },
+    "gold_ore": {
+      "discoveredAt": { "x": 60, "y": 62, "z": 80 },
+      "quantity": 10
+    },
+    "redstone_ore": {
+      "discoveredAt": { "x": -50, "y": 64, "z": 120 },
+      "quantity": 8
+    }
+  }
+}

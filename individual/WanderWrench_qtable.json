@@ -1,0 +1,25 @@
+{
+  "state_idle": {
+    "explore": 0.8875,
+    "gather": 0.44999999999999996,
+    "craft": 0.2875
+  },
+  "state_mining": {
+    "dig": 0.875,
+    "explore": 0.25,
+    "gather": 0.125
+  },
+  "state_exploring": {
+    "discover": 0.22499999999999998,
+    "gather": 0.11249999999999999,
+    "avoid": 0.0375
+  },
+  "exploring": {
+    "explore": 0.00006489045077996342
+  },
+  "state_building": {
+    "placeBlock": 8.444249301319704e-34,
+    "explore": 4.222124650659852e-34,
+    "gather": 1.4073748835532834e-34
+  }
+}

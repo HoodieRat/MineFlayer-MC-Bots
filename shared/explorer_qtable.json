@@ -1,0 +1,12 @@
+{
+  "state_idle": {
+    "explore": 0.7,
+    "gather": 0.2,
+    "craft": 0.1
+  },
+  "state_exploring": {
+    "discover": 0.6,
+    "gather": 0.3,
+    "avoid": 0.1
+  }
+}

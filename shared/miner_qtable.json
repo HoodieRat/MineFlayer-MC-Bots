@@ -1,0 +1,12 @@
+{
+  "state_idle": {
+    "explore": 0.3,
+    "gather": 0.5,
+    "craft": 0.2
+  },
+  "state_mining": {
+    "dig": 0.7,
+    "explore": 0.2,
+    "gather": 0.1
+  }
+}

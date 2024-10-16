@@ -1,0 +1,12 @@
+{
+  "state_idle": {
+    "explore": 0.4,
+    "gather": 0.4,
+    "craft": 0.2
+  },
+  "state_building": {
+    "placeBlock": 0.6,
+    "explore": 0.3,
+    "gather": 0.1
+  }
+}

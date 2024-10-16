@@ -1,0 +1,30 @@
+[
+  {
+    "name": "OreDigger5000",
+    "role": "miner"
+  },
+  {
+    "name": "RockMuncherXL",
+    "role": "miner"
+  },
+  {
+    "name": "BrickWhiz",
+    "role": "builder"
+  },
+  {
+    "name": "HammerNails",
+    "role": "builder"
+  },
+  {
+    "name": "MapSniffer",
+    "role": "explorer"
+  },
+  {
+    "name": "WanderWrench",
+    "role": "explorer"
+  },
+  {
+    "name": "Taskinator",
+    "role": "builder"
+  }
+]
